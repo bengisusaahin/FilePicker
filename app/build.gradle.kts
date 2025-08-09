@@ -7,6 +7,7 @@ plugins {
     alias(libs.plugins.compose.compiler)
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt.plugin)
+    alias(libs.plugins.google.gms.google.services)
     alias(libs.plugins.google.firebase.crashlytics)
 }
 
