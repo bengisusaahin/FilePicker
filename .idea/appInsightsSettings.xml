@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.bengisusahin.filepicker" />
+                  <option name="mobileSdkAppId" value="1:763785381301:android:cd27d14b187a4383a105fc" />
+                  <option name="projectId" value="filepicker-b33b1" />
+                  <option name="projectNumber" value="763785381301" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
