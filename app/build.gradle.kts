@@ -107,9 +107,9 @@ dependencies {
     implementation(libs.play.services.auth)
     implementation(libs.firebase.analytics)
     implementation(libs.firebase.crashlytics)
-    implementation(libs.firebase.storage)
     implementation(libs.firebase.firestore)
     implementation(libs.firebase.messaging)
+    implementation(libs.firebase.auth)
 
     //Web view
     implementation(libs.androidx.webkit)

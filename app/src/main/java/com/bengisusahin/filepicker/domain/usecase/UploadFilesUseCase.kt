@@ -15,7 +15,7 @@ class UploadFilesUseCase @Inject constructor(
     private val fileRepository: FileRepository,
     private val notificationRepository: NotificationRepository
 ) {
-    
+
     /**
      * Uploads multiple files and shows progress notifications
      * @param files List of files to upload
@@ -33,7 +33,7 @@ class UploadFilesUseCase @Inject constructor(
                         isCompleted = file.uploadProgress >= 1.0f
                     )
                 }
-                
+
                 // Cancel notification when all uploads are complete
                 val allCompleted = updatedFiles.all { it.uploadProgress >= 1.0f }
                 if (allCompleted) {
@@ -41,4 +41,4 @@ class UploadFilesUseCase @Inject constructor(
                 }
             }
     }
-} 
+}

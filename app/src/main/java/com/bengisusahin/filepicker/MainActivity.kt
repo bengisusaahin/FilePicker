@@ -15,13 +15,29 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.bengisusahin.filepicker.presentation.navigation.FilePickerNavigation
 import com.bengisusahin.filepicker.presentation.theme.FilePickerTheme
 import com.bengisusahin.filepicker.utils.NotificationHelper
+import com.google.firebase.FirebaseApp
+import com.google.firebase.auth.FirebaseAuth
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        
+        // Initialize Firebase
+        FirebaseApp.initializeApp(this)
+        
+        // Initialize Firebase Auth with anonymous sign-in
+        FirebaseAuth.getInstance().signInAnonymously()
+            .addOnCompleteListener { task ->
+                if (task.isSuccessful) {
+                    // Anonymous authentication successful
+                } else {
+                    // Handle authentication failure
+                }
+            }
         
         // Initialize notification channels
         NotificationHelper.createNotificationChannels(this)

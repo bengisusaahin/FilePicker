@@ -48,6 +48,8 @@ firebaseMessaging = "25.0.0"
 googleGmsGoogleServices = "4.4.3"
 googleFirebaseCrashlytics = "3.0.6"
 playServicesAuth = "21.4.0"
+playServicesDrive = "17.0.0"
+firebaseAuth = "24.0.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -104,9 +106,9 @@ firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "fir
 firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics"}
 firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore"}
 firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebaseMessaging" }
-firebase-storage = { group = "com.google.firebase", name = "firebase-storage" }
 play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
 play-services-base = { module = "com.google.android.gms:play-services-base", version.ref = "playServicesBase" }
+firebase-auth = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuth" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
