@@ -60,20 +60,27 @@ This project follows **Clean Architecture** principles with a clear separation o
 ## 📸 Screenshots
 
 ### Main Screen
-![Main Screen]
 *File selection interface with Material 3 design*
 
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/fd199708-b951-4266-a47b-10a712329c03" />
+
 ### File Selection
-![File Selection]
 *Multi-file picker with permission handling*
 
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/c3f68570-84e1-4eab-915d-9e48f1f3db07" />
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/d465c006-f716-466b-97b9-52e00b0134b6" />
+
 ### Upload Progress
-![Upload Progress]
 *Real-time upload progress with notifications*
 
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/e345ceb8-706b-4aef-9b94-e500c1c15091" />
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/19c71d77-3df4-4ea7-8b7c-2e76aef6e036" />
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/16acbdb1-cad1-4413-bed9-9824e3a4d415" />
+
 ### Push Notifications
-![Push Notifications]
 *Firebase Cloud Messaging integration*
+
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/88ca08ec-3950-444d-9aa0-d1661f48b830" />
 
 ## 🚀 Getting Started
 
@@ -196,6 +203,17 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **JetBrains**: For Kotlin language
 - **Material Design**: For design guidelines
 
+## Contact
 
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="padding-right: 10px;">Bengisu Şahin - <a href="mailto:bengisusaahin@gmail.com">bengisusaahin@gmail.com</a></td>
+    <td>
+      <a href="https://www.linkedin.com/in/bengisu-sahin/" target="_blank">
+        <img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" style="vertical-align: middle;" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ⭐ **Star this repository if you find it helpful!**
