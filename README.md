@@ -189,9 +189,6 @@ firebaseBom = "34.1.0"
 - **Lazy Loading**: Efficient list rendering
 - **Memory Management**: Proper resource cleanup
 
-```
-
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
