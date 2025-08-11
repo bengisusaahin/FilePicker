@@ -34,7 +34,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FilePicker">
+        android:theme="@style/Theme.FilePicker"
+        tools:targetApi="tiramisu">
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -47,12 +48,20 @@
 
         <!-- Firebase Cloud Messaging Service -->
         <service
-            android:name=".data.notification.FirebaseMessagingService"
+            android:name=".data.notification.AppFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+
+        <!-- Default notification channel and icon for FCM (Android 8+) -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="general_channel" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
     </application>
 
 </manifest>
