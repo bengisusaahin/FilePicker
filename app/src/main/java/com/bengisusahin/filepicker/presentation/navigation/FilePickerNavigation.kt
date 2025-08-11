@@ -1,5 +1,7 @@
 package com.bengisusahin.filepicker.presentation.navigation
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
@@ -21,6 +23,7 @@ sealed class Screen(val route: String) {
 /**
  * Main navigation component for the app
  */
+@RequiresApi(Build.VERSION_CODES.TIRAMISU)
 @Composable
 fun FilePickerNavigation(
     navController: NavHostController = rememberNavController()

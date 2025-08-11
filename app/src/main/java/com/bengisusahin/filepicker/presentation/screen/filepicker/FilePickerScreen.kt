@@ -118,6 +118,17 @@ fun FilePickerScreen(
             }
         }
 
+        OutlinedButton(
+            onClick = onNavigateToUploadedFiles,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 8.dp)
+        ) {
+            Icon(Icons.Default.List, contentDescription = null)
+            Spacer(modifier = Modifier.width(8.dp))
+            Text("Uploaded Files")
+        }
+
         Spacer(modifier = Modifier.height(16.dp))
 
         // Upload progress
